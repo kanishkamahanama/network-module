@@ -9,7 +9,7 @@ output "vpc_id" {
 }
 
 # Public subnet IDs from the public subnet map/list
-output "pulic_subnet_ids" {
+output "public_subnet_ids" {
   value = aws_subnet.public[*].id
 }
 
